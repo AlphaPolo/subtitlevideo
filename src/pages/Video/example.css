@@ -1,0 +1,24 @@
+.item {
+    /* cursor: pointer; */
+    /* width: 100%;
+    max-width: 720px; */
+    border-bottom: 1px solid #000;
+    /* display: flex;
+    flex-direction: row;
+    align-items: center; */
+}
+
+.item.even {
+    background-color: lightgray;
+}
+
+.square-item {
+    width: 360px;
+    height: 360px;
+    border: 1px solid #eee;
+    /* aspect-ratio: auto 1 / 1; */
+}
+
+.square-item.even {
+    background-color: lightblue;
+}
